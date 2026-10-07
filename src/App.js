@@ -5,10 +5,10 @@ import "./App.css";
 
 // =========================================================
 // TO'Y SANASI
-// 30-SENTABR 2026 — 18:00
+// 2-NOYABR 2026 — 18:00
 // =========================================================
 
-const WEDDING_DATE = new Date("2026-09-30T18:00:00");
+const WEDDING_DATE = new Date("2026-11-02T18:00:00");
 
 function App() {
     const [opened, setOpened] = useState(false);
@@ -267,8 +267,6 @@ function App() {
                         {opening && (
                             <div className="opening-light-wrapper">
 
-                                {/* Tashqi katta nur */}
-
                                 <motion.div
                                     className="opening-light"
                                     initial={{
@@ -309,8 +307,6 @@ function App() {
                                     }}
                                 />
 
-                                {/* Ikkinchi yumshoq glow */}
-
                                 <motion.div
                                     className="opening-glow"
                                     initial={{
@@ -336,8 +332,6 @@ function App() {
                                         ease: "easeOut",
                                     }}
                                 />
-
-                                {/* Markaziy oq yadro */}
 
                                 <motion.div
                                     className="light-core"
@@ -397,7 +391,7 @@ function App() {
                     <section className="invitation">
 
                         <img
-                            src="/first.png"
+                            src="/amir.png"
                             alt="To'y taklifnomasi"
                             className="invitation-image"
                         />
@@ -419,7 +413,7 @@ function App() {
                         </h2>
 
                         <p className="date-subtitle">
-                            30-sentabr 2026
+                            2-noyabr 2026
                             <span>•</span>
                             18:00
                         </p>
@@ -486,7 +480,7 @@ function App() {
 
                         <img
                             src="/image_transparent.png"
-                            alt="Mubiyn & Aziza"
+                            alt="Amirxon & Pokizaxon"
                             className="invitation-image"
                         />
 
@@ -496,9 +490,9 @@ function App() {
 
                             <h1 className="groom-name">
                                 <span className="first-letter">
-                                    M
+                                    A
                                 </span>
-                                ubiyn
+                                mirxon
                             </h1>
 
                             {/* AND */}
@@ -517,9 +511,9 @@ function App() {
 
                             <h1 className="bride-name">
                                 <span className="first-letter">
-                                    A
+                                    P
                                 </span>
-                                ziza
+                                okizaxon
                             </h1>
 
                             {/* OTA-ONA */}
@@ -597,13 +591,13 @@ function App() {
                             </p>
 
                             <h2>
-                                30 SEPTEMBER 2026
+                                2 NOVEMBER 2026
                             </h2>
 
                             <div className="calendar_card">
 
                                 <div className="month">
-                                    SEPTEMBER
+                                    NOVEMBER
                                 </div>
 
                                 <div className="calendar">
@@ -627,6 +621,13 @@ function App() {
                                         )
                                     )}
 
+                                    {/* November 2026 starts on Sunday */}
+
+                                    <div className="day empty_day"></div>
+                                    <div className="day empty_day"></div>
+                                    <div className="day empty_day"></div>
+                                    <div className="day empty_day"></div>
+                                    <div className="day empty_day"></div>
                                     <div className="day empty_day"></div>
 
                                     {Array.from(
@@ -639,7 +640,7 @@ function App() {
                                                 <div
                                                     key={day}
                                                     className={
-                                                        day === 30
+                                                        day === 2
                                                             ? "day active_day"
                                                             : "day"
                                                     }
@@ -647,7 +648,7 @@ function App() {
 
                                                     {day}
 
-                                                    {day === 30 && (
+                                                    {day === 2 && (
                                                         <span className="calendar-heart">
                                                             ♥
                                                         </span>
@@ -699,19 +700,13 @@ function App() {
 
                         <div className="program-elegant">
 
-                            {/* TITLE */}
-
                             <div className="program-small-title">
                                 OUR STORY
                             </div>
 
-                            {/* INFINITY */}
-
                             <div className="program-infinity">
                                 ∞
                             </div>
-
-                            {/* LINE */}
 
                             <div className="program-line">
 
@@ -723,35 +718,27 @@ function App() {
 
                             </div>
 
-                            {/* MAIN TITLE */}
-
                             <h2 className="program-main-title">
                                 A day to remember
                             </h2>
-
-                            {/* DESCRIPTION */}
 
                             <p className="program-description">
                                 Two hearts, one beautiful beginning
                             </p>
 
-                            {/* DATE */}
-
                             <div className="program-date">
 
-                                <span>30</span>
+                                <span>02</span>
 
                                 <i>•</i>
 
-                                <span>09</span>
+                                <span>11</span>
 
                                 <i>•</i>
 
                                 <span>2026</span>
 
                             </div>
-
-                            {/* BOTTOM */}
 
                             <div className="program-bottom">
 
@@ -882,20 +869,20 @@ function App() {
 
                             <h2 className="footer-names">
 
-                                Mubiyn
+                                Amirxon
 
                                 <span>
                                     &amp;
                                 </span>
 
-                                Aziza
+                                Pokizaxon
 
                             </h2>
 
                             <div className="footer-date">
 
                                 <span>
-                                    30
+                                    02
                                 </span>
 
                                 <b>
@@ -903,7 +890,7 @@ function App() {
                                 </b>
 
                                 <span>
-                                    09
+                                    11
                                 </span>
 
                                 <b>
