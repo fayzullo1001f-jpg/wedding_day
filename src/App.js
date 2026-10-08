@@ -391,7 +391,7 @@ function App() {
                     <section className="invitation">
 
                         <img
-                            src="/amir.png"
+                            src="/first.png"
                             alt="To'y taklifnomasi"
                             className="invitation-image"
                         />
