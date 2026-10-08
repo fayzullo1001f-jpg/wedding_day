@@ -920,7 +920,7 @@ function App() {
                                 Hurmat va ehtirom ila
                                 <br />
 
-                                Melikulovlar oilasi!
+                                Umarovlar oilasi!
 
                             </p>
 
